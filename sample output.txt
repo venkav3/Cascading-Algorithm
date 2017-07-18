@@ -1,0 +1,26 @@
+
+************************* output from running prob1.txt in the 60nodes folder *************************************
+
+
+  Demand attenuation factor, lambda1, lambda2, lambda3: 0.15, 0.15, 0.15
+numNodes 180 numArcs 348
+input networks tested and found to be connected.
+nsize1 60 nsize2 60 nsize3 60
+ nInter 84 nIntra 264
+ numcol (# of vars. in the problem) 97440
+model set up for cplex
+cplex.solve completed 
+ Solution status = Optimal
+objval achieved  = 2.0000
+remaining networks verified for connectivity
+end-state condition satisfied
+Nodes attacked:
+node 67 weight 1.0
+node 160 weight 1.0
+Nodes disabled:
+0 2 6 13 24 26 38 44 54 67 72 73 74 77 84 
+85 90 101 122 134 136 137 141 142 147 160 162 165  count 28
+
+Degradation effected:
+0.15, 0.15, 0.17
+elapsed time = 726828 (ms)
